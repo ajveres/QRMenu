@@ -31,5 +31,6 @@ public class Program
             pattern: "{controller=Home}/{action=Index}/{id?}");
         app.UseSession();
         app.Run();
+        
     }
 }
